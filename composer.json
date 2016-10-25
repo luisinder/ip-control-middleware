@@ -1,0 +1,25 @@
+{
+    "name": "luisinder/ip-control-middleware",
+    "description": "Middleware to control access by IP",
+    "keywords": [
+        "control", "middleware", "ip"
+    ],
+    "homepage": "https://github.com/luisinder/remote-port-middleware",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Luis Cajigas",
+            "email": "luic87@gmail.com",
+            "homepage": "https://github.com/luisinder"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luisinder\\Middleware\\": "src"
+        }
+    }
+}
