@@ -31,6 +31,6 @@ Class IpControl
 		if(array_search($ip,$this->trustedIp)== FALSE)
       return false;
     else
-      return true
+      return true;
 	}
 }
