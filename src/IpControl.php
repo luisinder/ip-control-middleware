@@ -36,7 +36,7 @@ Class IpControl
 
 protected function checkIp($ip)
 {
-  if(array_search($ip,$this->trustedIp) == FALSE)
+  if(array_search($ip,$this->trustedIp) === FALSE)
     return false;
   else
     return true;
