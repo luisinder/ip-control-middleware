@@ -12,7 +12,7 @@ Using Composer:
 $ composer require luisinder/ip-control-middleware
 ```
 
-#### Use
+### Use
 Allowed IPs must be inside an array. The second parameter is the return URL in case of failure:
 ```sh
 $app->add(new Luisinder\Middleware\IpControl(['::1','192.168.1.0','127.0.0.1'],"https://github.com"));
