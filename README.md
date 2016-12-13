@@ -1,5 +1,8 @@
 # IP Control Middleware
 
+[![Latest Stable Version](https://poser.pugx.org/luisinder/ip-control-middleware/v/stable)](https://packagist.org/packages/luisinder/ip-control-middleware)
+[![Total Downloads](https://poser.pugx.org/luisinder/ip-control-middleware/downloads)](https://packagist.org/packages/luisinder/ip-control-middleware)
+
 Middleware to control the IPs that have access to the application.
 
   - Allows adding multiple IPs.
